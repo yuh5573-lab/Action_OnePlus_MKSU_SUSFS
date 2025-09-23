@@ -102,6 +102,11 @@ on:
         description: "是否启用添加更多的ZRAM算法？"
         required: true
         default: false
+      CGROUP:
+        type: boolean
+        description: "是否启用CGROUP完全支持？(暂未实现)"
+        required: true
+        default: false
 
 jobs:
   build:
